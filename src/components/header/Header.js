@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export const Header = () => {
     return (
-        <header>
+        <header className="curved">
             <div>
                 <div className="topNav">
                     <Image alt="logo" src={'/image/logo_black.png'} width={50} height={50} />
